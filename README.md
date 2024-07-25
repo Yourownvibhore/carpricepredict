@@ -6,7 +6,7 @@ This repository contains the code and resources for an end-to-end Used Car Price
 the project is live on Azure web app: https://carpricepredict.azurewebsites.net/
 
 
-![Car price web app](https://drive.google.com/file/d/1gc8Y_MnAjF7z74YBkkpGmE3gQkXEjfPs/view?usp=sharing)
+<img src="https://drive.google.com/file/d/1gc8Y_MnAjF7z74YBkkpGmE3gQkXEjfPs/view?usp=sharing">
 
 ## Project Structure
 
