@@ -3,7 +3,10 @@
 ## Overview
 
 This repository contains the code and resources for an end-to-end Used Car Price Prediction project. The goal of this project is to predict the price of used cars based on various features such as model, brand, year, mileage, and more.
-the project is live at https://usedcarprice.onrender.com/
+the project is live on Azure web app: https://carpricepredict.azurewebsites.net/
+
+
+![Car price web app](https://drive.google.com/file/d/1gc8Y_MnAjF7z74YBkkpGmE3gQkXEjfPs/view?usp=sharing)
 
 ## Project Structure
 
@@ -38,7 +41,6 @@ the project is live at https://usedcarprice.onrender.com/
 
 
 - `requirements.txt`  # List of dependencies for the project
-- `config.yaml`  # Configuration file for setting up model parameters
 - `README.md`  # Project documentation
 
 Contributing
