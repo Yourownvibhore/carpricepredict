@@ -1,0 +1,6 @@
+2024-01-04 22:04:47,714 INFO     Initiating data ingestion
+2024-01-04 22:04:47,792 INFO     Read the data from the raw.csv file
+2024-01-04 22:04:47,854 INFO     Saved the data to the raw.csv file
+2024-01-04 22:04:47,854 INFO     Train-test split initiated
+2024-01-04 22:04:47,928 INFO     Train-test split completed
+2024-01-04 22:04:47,928 INFO     Data ingestion completed

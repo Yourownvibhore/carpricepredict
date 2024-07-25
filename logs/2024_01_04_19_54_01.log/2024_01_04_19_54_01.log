@@ -1,0 +1,11 @@
+2024-01-04 19:54:01,434 WARNING   * Debugger is active!
+2024-01-04 19:54:01,449 INFO      * Debugger PIN: 676-444-496
+2024-01-04 19:54:06,935 INFO     127.0.0.1 - - [04/Jan/2024 19:54:06] "GET / HTTP/1.1" 200 -
+2024-01-04 19:54:08,411 INFO     127.0.0.1 - - [04/Jan/2024 19:54:08] "GET / HTTP/1.1" 200 -
+2024-01-04 19:54:09,861 INFO     127.0.0.1 - - [04/Jan/2024 19:54:09] "GET /prediction HTTP/1.1" 200 -
+2024-01-04 19:54:35,432 INFO     127.0.0.1 - - [04/Jan/2024 19:54:35] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
+2024-01-04 19:54:35,468 INFO     127.0.0.1 - - [04/Jan/2024 19:54:35] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-01-04 19:54:35,469 INFO     127.0.0.1 - - [04/Jan/2024 19:54:35] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-01-04 19:54:35,532 INFO     127.0.0.1 - - [04/Jan/2024 19:54:35] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-01-04 19:54:35,765 INFO     127.0.0.1 - - [04/Jan/2024 19:54:35] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-01-04 19:58:08,801 INFO      * Detected change in 'd:\\used car ml project\\app.py', reloading

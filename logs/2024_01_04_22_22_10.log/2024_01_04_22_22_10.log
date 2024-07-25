@@ -1,0 +1,9 @@
+2024-01-04 22:22:12,391 INFO     Read the data from the train.csv and test.csv file
+2024-01-04 22:22:12,391 INFO     Initiating data transformation
+2024-01-04 22:22:12,391 INFO     Data transformation initiated
+2024-01-04 22:22:12,391 INFO     numerical_columns: ['Year', 'Kilometers_Driven', 'Mileage(kmpl)', 'Engine(cc)', 'Power(bhp)', 'Seats']
+2024-01-04 22:22:12,391 INFO     categorical_columns: ['Fuel_Type', 'Transmission', 'Owner_Type', 'Brand', 'Model', 'Region']
+2024-01-04 22:22:12,391 INFO     Data transformation completed
+2024-01-04 22:22:12,391 INFO     fit the preprocessor object on the train data
+2024-01-04 22:22:12,423 INFO     transform test data
+2024-01-04 22:22:12,423 INFO     Data transformation dsjndkjs

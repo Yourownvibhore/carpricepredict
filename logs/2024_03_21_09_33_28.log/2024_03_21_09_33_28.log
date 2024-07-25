@@ -1,0 +1,6 @@
+2024-03-21 09:33:28,832 WARNING   * Debugger is active!
+2024-03-21 09:33:28,863 INFO      * Debugger PIN: 138-687-897
+2024-03-21 09:34:09,160 INFO     127.0.0.1 - - [21/Mar/2024 09:34:09] "GET / HTTP/1.1" 200 -
+2024-03-21 09:34:09,160 INFO     127.0.0.1 - - [21/Mar/2024 09:34:09] "GET / HTTP/1.1" 200 -
+2024-03-21 09:34:11,289 INFO     127.0.0.1 - - [21/Mar/2024 09:34:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-21 09:38:49,981 INFO      * Detected change in 'D:\\used car ml project\\app.py', reloading

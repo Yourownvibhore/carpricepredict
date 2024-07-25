@@ -1,0 +1,6 @@
+2024-07-25 00:04:54,045 WARNING   * Debugger is active!
+2024-07-25 00:04:54,052 INFO      * Debugger PIN: 839-731-892
+2024-07-25 00:04:57,693 INFO     127.0.0.1 - - [25/Jul/2024 00:04:57] "GET / HTTP/1.1" 200 -
+2024-07-25 00:05:01,491 INFO     127.0.0.1 - - [25/Jul/2024 00:05:01] "GET /prediction HTTP/1.1" 200 -
+2024-07-25 00:05:44,786 INFO     127.0.0.1 - - [25/Jul/2024 00:05:44] "POST /prediction HTTP/1.1" 200 -
+2024-07-25 00:06:06,374 INFO      * Detected change in 'D:\\used car ml project\\app.py', reloading

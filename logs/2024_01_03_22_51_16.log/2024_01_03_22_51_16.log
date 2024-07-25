@@ -1,0 +1,16 @@
+2024-01-03 22:51:18,857 INFO     Initiating data ingestion
+2024-01-03 22:51:18,873 INFO     Read the data from the raw.csv file
+2024-01-03 22:51:18,920 INFO     Saved the data to the raw.csv file
+2024-01-03 22:51:18,920 INFO     Train-test split initiated
+2024-01-03 22:51:18,999 INFO     Train-test split completed
+2024-01-03 22:51:18,999 INFO     Data ingestion completed
+2024-01-03 22:51:19,030 INFO     Read the data from the train.csv and test.csv file
+2024-01-03 22:51:19,030 INFO     Initiating data transformation
+2024-01-03 22:51:19,030 INFO     Data transformation initiated
+2024-01-03 22:51:19,030 INFO     numerical_columns: ['Year', 'Kilometers_Driven', 'Mileage(kmpl)', 'Engine(cc)', 'Power(bhp)', 'Seats']
+2024-01-03 22:51:19,030 INFO     categorical_columns_ordinal1: ['Fuel_Type', 'Transmission', 'Owner_Type']
+2024-01-03 22:51:19,030 INFO     categorical_columns_nominal: ['Region']
+2024-01-03 22:51:19,030 INFO     categorical_columns_ordinal2: ['Brand', 'Model']
+2024-01-03 22:51:19,030 INFO     Data transformation completed
+2024-01-03 22:51:19,109 INFO     fit the preprocessor object on the train data
+2024-01-03 22:51:19,215 INFO     transform test data

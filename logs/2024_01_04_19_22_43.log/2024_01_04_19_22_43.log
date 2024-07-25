@@ -1,0 +1,21 @@
+2024-01-04 19:22:43,777 WARNING   * Debugger is active!
+2024-01-04 19:22:43,824 INFO      * Debugger PIN: 676-444-496
+2024-01-04 19:23:11,739 INFO     127.0.0.1 - - [04/Jan/2024 19:23:11] "GET /prediction HTTP/1.1" 200 -
+2024-01-04 19:23:15,586 INFO     127.0.0.1 - - [04/Jan/2024 19:23:15] "GET / HTTP/1.1" 200 -
+2024-01-04 19:23:16,994 INFO     127.0.0.1 - - [04/Jan/2024 19:23:16] "GET /prediction HTTP/1.1" 200 -
+2024-01-04 19:23:54,417 INFO     127.0.0.1 - - [04/Jan/2024 19:23:54] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
+2024-01-04 19:23:54,867 INFO     127.0.0.1 - - [04/Jan/2024 19:23:54] "GET /prediction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-01-04 19:23:55,298 INFO     127.0.0.1 - - [04/Jan/2024 19:23:55] "GET /prediction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-01-04 19:23:55,448 INFO     127.0.0.1 - - [04/Jan/2024 19:23:55] "GET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-01-04 19:23:55,837 INFO     127.0.0.1 - - [04/Jan/2024 19:23:55] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-01-04 19:24:23,153 INFO     127.0.0.1 - - [04/Jan/2024 19:24:23] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
+2024-01-04 19:24:23,206 INFO     127.0.0.1 - - [04/Jan/2024 19:24:23] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-01-04 19:24:23,210 INFO     127.0.0.1 - - [04/Jan/2024 19:24:23] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-01-04 19:24:23,268 INFO     127.0.0.1 - - [04/Jan/2024 19:24:23] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-01-04 19:24:23,607 INFO     127.0.0.1 - - [04/Jan/2024 19:24:23] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-01-04 19:25:21,418 INFO     127.0.0.1 - - [04/Jan/2024 19:25:21] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
+2024-01-04 19:25:21,454 INFO     127.0.0.1 - - [04/Jan/2024 19:25:21] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-01-04 19:25:21,460 INFO     127.0.0.1 - - [04/Jan/2024 19:25:21] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-01-04 19:25:21,506 INFO     127.0.0.1 - - [04/Jan/2024 19:25:21] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-01-04 19:25:21,747 INFO     127.0.0.1 - - [04/Jan/2024 19:25:21] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-01-04 19:26:41,757 INFO      * Detected change in 'd:\\used car ml project\\app.py', reloading

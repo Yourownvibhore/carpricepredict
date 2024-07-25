@@ -1,0 +1,31 @@
+2024-01-03 23:23:20,714 INFO     Initiating data ingestion
+2024-01-03 23:23:20,730 INFO     Read the data from the raw.csv file
+2024-01-03 23:23:20,745 INFO     Saved the data to the raw.csv file
+2024-01-03 23:23:20,745 INFO     Train-test split initiated
+2024-01-03 23:23:20,777 INFO     Train-test split completed
+2024-01-03 23:23:20,777 INFO     Data ingestion completed
+2024-01-03 23:23:20,824 INFO     Read the data from the train.csv and test.csv file
+2024-01-03 23:23:20,824 INFO     Initiating data transformation
+2024-01-03 23:23:20,824 INFO     Data transformation initiated
+2024-01-03 23:23:20,824 INFO     numerical_columns: ['Year', 'Kilometers_Driven', 'Mileage(kmpl)', 'Engine(cc)', 'Power(bhp)', 'Seats']
+2024-01-03 23:23:20,824 INFO     categorical_columns_ordinal1: ['Fuel_Type', 'Transmission', 'Owner_Type']
+2024-01-03 23:23:20,824 INFO     categorical_columns_nominal: ['Region']
+2024-01-03 23:23:20,824 INFO     categorical_columns_ordinal2: ['Brand', 'Model']
+2024-01-03 23:23:20,824 INFO     Data transformation completed
+2024-01-03 23:23:20,824 INFO     fit the preprocessor object on the train data
+2024-01-03 23:23:20,839 INFO     transform test data
+2024-01-03 23:23:20,855 INFO     Data transformation completed
+2024-01-03 23:23:20,855 INFO     Saving the preprocessor object
+2024-01-03 23:23:20,855 INFO     splitting the data into X_train,y_train,X_test,y_test
+2024-01-03 23:23:20,855 INFO     splitting completed
+2024-01-03 23:23:20,855 INFO     Initiating model training
+2024-01-03 23:23:20,855 INFO     Evaluating the models
+2024-01-03 23:23:30,056 INFO     model_report: {'Random Forest': 0.8753678469330983, 'Decision Tree': 0.7947665057071291, 'Gradient Boosting': 0.8455217986663055, 'Linear Regression': 0.6707131767144546, 'XGBRegressor': 0.8854051660678778, 'CatBoosting Regressor': 0.9007036937397506, 'AdaBoost Regressor': 0.5925118559141579, 'KNeighbors Regressor': 0.8227269682323833}
+2024-01-03 23:23:30,056 INFO     best_model_score: 0.9007036937397506
+2024-01-03 23:23:30,056 INFO     best_model_name: CatBoosting Regressor
+2024-01-03 23:23:30,056 INFO     best_model: <catboost.core.CatBoostRegressor object at 0x0000026D9FB113A0>
+2024-01-03 23:23:30,056 INFO     found the best model
+2024-01-03 23:23:30,105 INFO     model saved successfully
+2024-01-03 23:23:30,105 INFO     predicted value: [21.92585184 10.69182809 21.45585444 ...  8.30284905  3.23640437
+  3.498602  ]
+2024-01-03 23:23:30,105 INFO     r2 score: 0.9007036937397506

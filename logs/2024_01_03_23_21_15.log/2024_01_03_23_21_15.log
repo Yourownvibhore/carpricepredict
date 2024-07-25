@@ -1,0 +1,24 @@
+2024-01-03 23:21:42,870 INFO     Initiating data ingestion
+2024-01-03 23:21:43,045 INFO     Read the data from the raw.csv file
+2024-01-03 23:21:43,169 INFO     Saved the data to the raw.csv file
+2024-01-03 23:21:43,169 INFO     Train-test split initiated
+2024-01-03 23:21:43,578 INFO     Train-test split completed
+2024-01-03 23:21:43,578 INFO     Data ingestion completed
+2024-01-03 23:21:43,609 INFO     Read the data from the train.csv and test.csv file
+2024-01-03 23:21:43,609 INFO     Initiating data transformation
+2024-01-03 23:21:43,609 INFO     Data transformation initiated
+2024-01-03 23:21:43,625 INFO     numerical_columns: ['Year', 'Kilometers_Driven', 'Mileage(kmpl)', 'Engine(cc)', 'Power(bhp)', 'Seats']
+2024-01-03 23:21:43,625 INFO     categorical_columns_ordinal1: ['Fuel_Type', 'Transmission', 'Owner_Type']
+2024-01-03 23:21:43,625 INFO     categorical_columns_nominal: ['Region']
+2024-01-03 23:21:43,625 INFO     categorical_columns_ordinal2: ['Brand', 'Model']
+2024-01-03 23:21:43,625 INFO     Data transformation completed
+2024-01-03 23:21:43,656 INFO     fit the preprocessor object on the train data
+2024-01-03 23:21:43,766 INFO     transform test data
+2024-01-03 23:21:43,766 INFO     Data transformation completed
+2024-01-03 23:21:43,766 INFO     Saving the preprocessor object
+2024-01-03 23:21:43,797 INFO     splitting the data into X_train,y_train,X_test,y_test
+2024-01-03 23:21:43,797 INFO     splitting completed
+2024-01-03 23:21:43,797 INFO     Initiating model training
+2024-01-03 23:21:43,797 INFO     Evaluating the models
+2024-01-03 23:21:55,096 INFO     model_report: {'Random Forest': 0.8723443258471351, 'Decision Tree': 0.7570105761388226, 'Gradient Boosting': 0.8472106760904363, 'Linear Regression': 0.6707131767144546, 'XGBRegressor': 0.8854051660678778, 'CatBoosting Regressor': 0.9007036937397506, 'AdaBoost Regressor': 0.5420745084940936, 'KNeighbors Regressor': 0.8227269682323833}
+2024-01-03 23:21:55,096 INFO     best_model_score: 0.9007036937397506
